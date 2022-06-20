@@ -9,7 +9,7 @@ export class ButtonComponent implements OnInit {
 
   @Input() public texto?: string;
   @Input() public cor: string = 'primaria';
-  @Input() public classeCSS: string = '';
+  @Input() public classeCss: string = '';
   @Input() public tipo: string = 'button';
   @Input () public desabilitar: boolean = false;
 

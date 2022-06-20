@@ -1,0 +1,31 @@
+<app-public-page
+textoBotaoSubmit="Login">
+
+<app-public-input
+imagem="assets/images/envelope.svg"
+placeholder="E-mail"
+tipo="email"
+[referenciaFormulario]="obterReferencia('email')"
+conteudoFormulario
+>
+
+</app-public-input>
+
+<app-public-input
+imagem="assets/images/key.svg"
+placeholder="Senha"
+tipo="password"
+[referenciaFormulario]="obterReferencia('senha')"
+conteudoFormulario
+>
+
+</app-public-input>
+
+<app-footer
+pergunta="Não possui conta?"
+textoDaAcao="Faça seu cadastro agora!"
+rota="cadastro"
+rodape
+></app-footer>
+
+</app-public-page>

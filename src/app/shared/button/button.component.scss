@@ -18,9 +18,16 @@
   &.primaria {
     @include botaoPrimario;
 
+    &:hover {
+      @include botaoOutline;
+    }
+  }
+
+  &.outline {
+    @include botaoOutline;
 
     &:hover {
-      @include botaoOutline
+      @include botaoPrimario;
     }
   }
 
@@ -28,11 +35,15 @@
     opacity: 0.5;
   }
 
-  &.outline {
-    @include botaoOutline;
-
-    &:hover {
-    @include botaoPrimario;
-    }
+  &.botaoPublico {
+    margin-top: 40px;
+    padding: 12px;
+    font-size: 16px;
   }
 }
+
+
+
+
+
+
